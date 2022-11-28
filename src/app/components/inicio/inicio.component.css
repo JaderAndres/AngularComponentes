@@ -1,0 +1,19 @@
+#dvInicio {
+  width: 100%;
+  margin: 50px;
+}
+
+#dvContenido {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.dvMision {
+  width: 50%;
+}
+
+p {
+  text-align: justify;
+}
+

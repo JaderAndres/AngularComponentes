@@ -1,0 +1,48 @@
+<div style="display: flex">
+
+  <div id="dvContactanos">
+    <h2>Contactanos</h2>
+    <br/>
+     <p>Puedes acércarte a nuestra oficina principal para asesorarte o escríbirnos y nos pondremos en contacto</p>
+    <div id="dvMapa">
+      <div>
+      <img src="../assets/img/mapa.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+    </div>
+    </div>
+    <br/>
+    <h4 style="text-align: center;">Datos</h4>
+
+    <div id="dvFormulario">
+      <form id="formulario">
+          <div class="form-group">
+            <label for="nombreCompletoUsuario" class="form-label">Nombre completo</label>
+            <input type="text" class="form-control" id="nombreCompletoUsuario" required>
+          </div>
+          <br/>
+          <div class="form-group">
+              <label for="correoUsuario" class="form-label">Correo electrónico</label>
+              <input type="text" class="form-control" id="correoUsuario" required>
+          </div>
+          <br/>
+          <div class="form-group">
+              <label for="tel" class="form-label">Teléfono</label>
+              <input type="text" class="form-control" id="tel" required>
+          </div>
+          <br/>
+          <div class="form-group">
+              <label for="idea" class="form-label">¿Cúal es su idea?</label>
+              <input type="text" class="form-control" id="idea" required>
+          </div>
+          <br/>
+          <div>
+              <input class="btn btn-success" type="submit" value="Enviar">
+          </div>
+      </form>
+  </div> <!-- Fin dvFormulario -->
+
+
+  </div> <!-- Fin dvContactanos -->
+  <div style="width: 25%">
+    <app-aside></app-aside>
+  </div>
+</div>

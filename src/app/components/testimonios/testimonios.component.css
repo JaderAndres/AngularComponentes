@@ -1,0 +1,9 @@
+#dvTestimonios {
+  width: 100%;
+  margin: 50px;
+}
+
+#dvVideo {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,9 @@
+#dvContactanos {
+  width: 100%;
+  margin: 50px;
+}
+
+#dvMapa {
+  display: flex;
+  justify-content: center;
+}
